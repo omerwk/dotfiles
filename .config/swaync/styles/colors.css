@@ -1,0 +1,38 @@
+/* --- Background shades --- */
+@define-color bg0        #3A2F35;   /* darkest */
+@define-color bg1        #4A3A45;
+@define-color bg2        #5A4A55;
+@define-color bg3        #6A5A65;
+@define-color bg4        #7A6A75;   /* lightest bg */
+
+/* --- Foreground shades --- */
+@define-color fg0        #FFFFFF;   /* brightest */
+@define-color fg1        #F2E9EF;
+@define-color fg2        #DCCFD6;
+@define-color fg3        #C7BCC3;
+@define-color fg4        #B3A8AF;   /* darkest fg */
+
+/* --- Core accents (warm) --- */
+@define-color red0       #FF6B81;
+@define-color red1       #FF8FA3;
+@define-color red2       #FF8FB7;
+
+@define-color peach0     #FFB4A2;
+@define-color peach1     #FFC4B5;
+@define-color peach2     #FFD6B5;
+@define-color peach3     #FFE3C8;
+
+/* --- Cool accents --- */
+@define-color violet0    #D7B0FF;
+@define-color violet1    #E3C6FF;
+
+@define-color blue0      #A0B8EF;
+@define-color blue1      #C2ECFF;
+
+/* --- Semantic colors (optional) --- */
+@define-color primary     @peach2;
+@define-color secondary   @violet0;
+@define-color highlight   @peach0;
+@define-color muted       @fg3;
+@define-color border      @bg2;
+

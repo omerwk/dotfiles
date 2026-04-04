@@ -1,0 +1,31 @@
+configuration {
+	modes: "drun";
+	show-icons: true;
+	icon-theme: "Papirus-Dark";
+	display-drun: "";
+	terminal: "wezterm";
+	font: "CaskaydiaMono Nerd Font 10";
+}
+
+* {
+    background: rgba (20, 20, 20, 0.4 % );
+    alternate-normal-background: rgba (20, 20, 20, 0.4 %);
+
+    foreground: #f2e9ef;
+    textcolor: #f2e9ef;
+
+    selected-normal-background: #ffd6b5;
+    selected-normal-foreground: #4a3a45;
+
+    urgent: #ffb4a2;
+    border-color: transparent;
+    separatorcolor: transparent;
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+listview {
+    scrollbar: false;
+    pages: 1;
+}
+
