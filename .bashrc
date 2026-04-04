@@ -3,15 +3,15 @@ export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init bash)"
 
 # --- Aliases ---
-alias discord="discord"
-alias spotify="flatpak run io.github.hrkfdn.ncspot"
+alias discord="vesktop"
+alias spotify="ncspot"
 
 # --- Site Shortcuts ---
-# Simple aliases for Zen Browser via Flatpak
-alias youtube="flatpak run app.zen_browser.zen https://youtube.com"
-alias gmail="flatpak run app.zen_browser.zen https://mail.google.com"
-alias twitch="flatpak run app.zen_browser.zen https://twitch.tv"
-alias mashov="flatpak run app.zen_browser.zen https://web.mashov.info/students/login"
+# Simple aliases for Zen Browser
+alias youtube="zen-browser https://youtube.com"
+alias gmail="zen-browser https://mail.google.com"
+alias twitch="zen-browser https://twitch.tv"
+alias mashov="zen-browser https://web.mashov.info/students/login"
 
 # --- Home Function ---
 function home() {
