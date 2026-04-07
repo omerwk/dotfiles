@@ -4,16 +4,17 @@ eval "$(starship init bash)"
 
 # --- Aliases ---
 alias discord="vesktop"
-alias spotify="ncspot"
+alias spotify="spicetify"
+alias i="sudo pacman -S"
+alias y="yay -S"
 
 # --- Site Shortcuts ---
-# Simple aliases for Zen Browser
 alias youtube="zen-browser https://youtube.com"
 alias gmail="zen-browser https://mail.google.com"
 alias twitch="zen-browser https://twitch.tv"
 alias mashov="zen-browser https://web.mashov.info/students/login"
 
-# --- Home Function ---
+# --- Home Function --- 
 function home() {
     clear
     cd "$HOME"
@@ -21,6 +22,7 @@ function home() {
         fastfetch
     fi
 }
+# ^ stolen from qwavs 
 
 # --- Startup ---
 # Run fastfetch on startup if it exists
